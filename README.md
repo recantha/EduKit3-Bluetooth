@@ -1,5 +1,9 @@
 # EduKit3-Bluetooth
 
+## Credits
+A big thank you to Matt Hawkins (http://www.raspberrypi-spy.co.uk/) and the Raspberry Pi Foundation for the Bluetooth and CWiid instructions.
+
+## Note
 Please note: these instructions will only work for 1st edition Wii controllers
 i.e. those without Wii motionplus. This is a limitation of the CWiid library.
 
