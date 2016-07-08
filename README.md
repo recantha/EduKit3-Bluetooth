@@ -3,7 +3,9 @@
 ## Credits
 A big thank you to Matt Hawkins (http://www.raspberrypi-spy.co.uk/) and the Raspberry Pi Foundation for the Bluetooth and CWiid instructions.
 
-## Note
+## Notes
+Please consider these instructions a BETA until they are absorbed and reformatted into the EduKit 3 worksheets.
+
 Please note: these instructions will only work for 1st edition Wii controllers
 i.e. those without Wii motionplus. This is a limitation of the CWiid library.
 
@@ -130,3 +132,6 @@ The Pi should boot up, the LED should light up. As before, press 1+2 on your
 Wiimote. The LED should flash to let you know you've done it.
 
 Away you go!
+
+## Contacting me
+You can either email me at mike (at) recantha.co.uk or via my blog: http://www.recantha.co.uk/blog/?page_id=610
