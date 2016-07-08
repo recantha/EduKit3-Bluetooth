@@ -13,6 +13,7 @@ motors and battery pack connected up. It's assumed that you've worked through
 at least as far as worksheet 4.
 * A portable power source for the Pi, such as a phone charger battery.
 * A USB cable to attach the power source to the Raspberry Pi
+* A Wiimote (first edition, without motionplus)
 
 ## Software installation
 Run the following command to install the bluetooth service:
