@@ -16,6 +16,10 @@ at least as far as worksheet 4.
 * A portable power source for the Pi, such as a phone charger battery.
 * A USB cable to attach the power source to the Raspberry Pi
 * A Wiimote (first edition, without motionplus)
+* Bluetooth capability. So, one of:
+** Raspberry Pi 3
+** Raspberry Pi Zero + USB adapter + bluetooth dongle
+** Raspberry Pi (other model) + bluetooth dongle
 
 ## Software installation
 Run the following command to install the bluetooth service:
