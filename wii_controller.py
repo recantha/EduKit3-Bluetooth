@@ -3,6 +3,7 @@
 
 import RPi.GPIO as GPIO # Import the GPIO Library
 import time # Import the Time library
+import os
 
 # Set the GPIO modes
 GPIO.setmode(GPIO.BCM)
@@ -82,6 +83,8 @@ try:
 except RuntimeError:
     print "Error opening wiimote connection"
     GPIO.output(PIN_LED, 0)
+    # Uncomment this line to shutdown the Pi if pairing fails
+    #os.system("sudo halt")
     quit()
 
 print 'Wii Remote connected...\n'
@@ -109,7 +112,8 @@ while True:
         time.sleep(1)
         wii.rumble = 0
         GPIO.output(PIN_LED, 0)
-        exit(wii)  
+        os.system("sudo halt")
+        exit(wii)
   
     # Check if other buttons are pressed by
     # doing a bitwise AND of the buttons number
